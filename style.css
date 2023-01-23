@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+@media (max-width: 375px) {
+body {
+  margin: 0;
+  display: grid;
+  justify-items: center;
+  min-height: 100vh;
+  background-color: hsl(204, 43%, 93%);
+  font-family: 'Karla', sans-serif;
+}
+
+main {
+  margin: auto;
+  max-width: 80vw;
+  max-height: 80vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  font-size: 0.8rem;
+}
+
+section {
+  padding: 1.5rem;
+}
+
+.description {
+  background-color: white;
+  border-radius: 5px 5px 0 0;
+}
+
+.description h1 {
+  color: hsl(179, 62%, 43%);
+  margin-block-start: 0;
+  margin-block-end: 1.5rem;
+}
+
+.description h2 {
+  color: hsl(71, 73%, 54%);
+  font-size: 1rem;
+}
+
+.description p {
+  color: hsl(218, 22%, 67%);
+  line-height: 1.5rem;
+}
+
+.price {
+  background-color: hsl(179, 62%, 43%);
+  color: rgb(253, 253, 253);
+}
+
+.price h2 {
+  font-size: 1rem;
+  margin-block-start: 0;
+}
+
+.subscription {
+  margin: 0;
+}
+
+.dollar {
+  font-size: 2rem;
+  margin-inline-end: 0.6rem;
+}
+
+.month {
+  vertical-align: super;
+  color: rgb(253, 253, 253, 0.5);
+}
+
+.access {
+  color: rgb(253, 253, 253, 0.8);
+}
+
+.price button {
+  background-color: hsl(71, 73%, 54%);
+  color: rgb(253, 253, 253);
+  min-width: 100%;
+  font-family: 'Karla', sans-serif;
+  padding: 15px 0;
+  border: none;
+  border-radius: 5px;
+  margin-block-start: 1.66em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.benefits {
+  background-color: hsl(179, 62%, 63%);
+  color: rgb(253, 253, 253);
+  border-radius: 0 0 5px 5px;
+}
+
+.benefits h2 {
+  margin-block-start: 0;
+}
+
+.benefits p {
+  color: rgb(253, 253, 253, 0.8);
+  line-height: 1.2rem;
+  margin-block-end: 0;
+}
+}
+
+
+
